@@ -1,9 +1,18 @@
 package com.digitalinovation.RestfullApplication.dto;
 
 public class Soldado {
+    private  String cpf;
     private String nome;
     private String raça;
     private String arma;
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
 
     public String getNome() {
         return nome;
