@@ -19,7 +19,7 @@ public class SoldadoController {
         this.soldadoService = soldadoService;
     }
 
-    @GetMapping("/(cpf)")
+    @GetMapping("/cpf")
     public ResponseEntity<Soldado> buscarSoldado(@PathVariable() String cpf){
         Soldado soldado = soldadoService.buscarSoldado(cpf);
         return ResponseEntity.status(HttpStatus.OK).body(soldado);
