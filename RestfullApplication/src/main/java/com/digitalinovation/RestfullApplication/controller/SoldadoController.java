@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+
 @RequestMapping("/v1/soldado")
 public class SoldadoController {
     private SoldadoService soldadoService;
@@ -18,7 +19,7 @@ public class SoldadoController {
         this.soldadoService = soldadoService;
     }
 
-    @GetMapping
+    @GetMapping("/(cpf)")
     public ResponseEntity<Soldado> buscarSoldado(@PathVariable() String cpf){
         Soldado soldado = soldadoService.buscarSoldado(cpf);
         return ResponseEntity.status(HttpStatus.OK).body(soldado);
