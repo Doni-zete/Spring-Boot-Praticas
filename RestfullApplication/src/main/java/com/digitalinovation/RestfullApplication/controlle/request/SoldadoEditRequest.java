@@ -1,18 +1,9 @@
-package com.digitalinovation.RestfullApplication.dto;
+package com.digitalinovation.RestfullApplication.controlle.request;
 
-public class Soldado {
-    private String cpf;
+public class SoldadoEditRequest {
     private String nome;
     private String raca;
     private String arma;
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
 
     public String getNome() {
         return nome;
