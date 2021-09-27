@@ -26,9 +26,11 @@ public class SoldadoController {
 
 soldadoService.criarSoldado(soldado);
 
-        return  ResponseEntity.ok().build();
+        return  ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
+      @PutMapping
+    public  ResponseEntity editarSoldado(@RequestBody)
 
 
 }
