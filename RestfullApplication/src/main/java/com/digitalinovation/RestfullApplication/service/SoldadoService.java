@@ -16,6 +16,10 @@ public class SoldadoService {
 
         return soldado;
 
-
 }
+    public void criarSoldado(Soldado soldado){
+
+    }
+
+
 }
