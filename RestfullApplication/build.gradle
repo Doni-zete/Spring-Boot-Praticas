@@ -18,6 +18,19 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+//Hateos
+implementation 'org.springframework.hateos:spring-hateos'
+implementation 'org.springframework.plugin:spring-plugin-core'
+
+//Trabalhar com banco de dados
+
+implementation 'org.spring framework.boot:spring-boot-starter-data-jpa'
+//h2
+runtime 'com,h2database:h2:1.0.60'
+
+testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
 test {
 	useJUnitPlatform()
 }

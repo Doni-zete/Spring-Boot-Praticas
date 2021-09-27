@@ -38,10 +38,11 @@ public class SoldadoService {
         soldado1.setRaca("Elfo");
         soldado1.setArma("Arco e flexa");
         Soldado soldado2 = new Soldado();
+
         soldado2.setCpf("987654321");
-        soldado2.setNome("Paloma");
-        soldado2.setRaca("Elfa");
-        soldado2.setArma("Arco e flexa");
+        soldado2.setNome("Sentinela");
+        soldado2.setRaca("Duende");
+        soldado2.setArma("Estilete e alicate");
 
         return Arrays.asList(soldado1,soldado2);
     }
