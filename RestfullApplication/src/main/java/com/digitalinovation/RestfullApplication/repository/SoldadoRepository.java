@@ -1,5 +1,6 @@
 package com.digitalinovation.RestfullApplication.repository;
 
+import com.digitalinovation.RestfullApplication.entity.SoldadoEntity;
 import org.springframework.stereotype.Repository;
 
 @Repository
