@@ -1,24 +1,10 @@
-package com.digitalinovation.RestfullApplication.entity;
+package digitalinnovation.example.restfull.dto;
 
-import android.arch.persistence.room.Entity;
-
-@Entity
-public class SoldadoEntity {
-    @Id
-    private Long id;
+public class Soldado {
     private String cpf;
     private String nome;
     private String raca;
     private String arma;
-    private String status;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getCpf() {
         return cpf;
@@ -50,13 +36,5 @@ public class SoldadoEntity {
 
     public void setArma(String arma) {
         this.arma = arma;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
     }
 }

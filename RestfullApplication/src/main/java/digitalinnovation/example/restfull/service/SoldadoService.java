@@ -1,7 +1,7 @@
-package com.digitalinovation.RestfullApplication.service;
+package digitalinnovation.example.restfull.service;
 
-import com.digitalinovation.RestfullApplication.controlle.request.SoldadoEditRequest;
-import com.digitalinovation.RestfullApplication.dto.Soldado;
+import digitalinnovation.example.restfull.controller.request.SoldadoEditRequest;
+import digitalinnovation.example.restfull.dto.Soldado;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -38,11 +38,10 @@ public class SoldadoService {
         soldado1.setRaca("Elfo");
         soldado1.setArma("Arco e flexa");
         Soldado soldado2 = new Soldado();
-
         soldado2.setCpf("987654321");
-        soldado2.setNome("Sentinela");
-        soldado2.setRaca("Duende");
-        soldado2.setArma("Estilete e alicate");
+        soldado2.setNome("Paloma");
+        soldado2.setRaca("Elfa");
+        soldado2.setArma("Arco e flexa");
 
         return Arrays.asList(soldado1,soldado2);
     }
