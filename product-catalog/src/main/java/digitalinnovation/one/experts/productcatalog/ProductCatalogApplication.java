@@ -1,13 +1,13 @@
-package one.digitalinovation.experts.productcatallog;
+package digitalinnovation.one.experts.productcatalog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductCatallogApplication {
+public class ProductCatalogApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductCatallogApplication.class, args);
+		SpringApplication.run(ProductCatalogApplication.class, args);
 	}
 
 }

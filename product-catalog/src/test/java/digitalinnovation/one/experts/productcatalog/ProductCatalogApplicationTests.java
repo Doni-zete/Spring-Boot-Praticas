@@ -1,10 +1,10 @@
-package one.digitalinovation.experts.productcatallog;
+package digitalinnovation.one.experts.productcatalog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductCatallogApplicationTests {
+class ProductCatalogApplicationTests {
 
 	@Test
 	void contextLoads() {
